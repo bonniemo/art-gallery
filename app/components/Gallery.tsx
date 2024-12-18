@@ -19,7 +19,7 @@ const Gallery = () => {
         <h2 className="uppercase">
           <span className="block lsinline">Your day </span>at the gallery
         </h2>
-        <p>
+        <p className="l:w-72">
           Wander through our distinct collections and find new insights about
           our artists. Dive into the details of their creative process.
         </p>
@@ -40,15 +40,15 @@ const Gallery = () => {
 
       <picture className="ls:col-start-8 ls:col-end-13 ls:row-start-2 ls:row-end-3">
         <source
-          srcSet="/desktop/image-grid-3@2x.jpg"
+          srcSet="/desktop/image-grid-3.jpg"
           media="(min-width: 1000px)"
         />
         <source
-          srcSet="/tablet/image-grid-3@2x.jpg"
+          srcSet="/tablet/image-grid-3.jpg"
           media="(min-width: 700px)"
         />
         <img
-          src="/mobile/image-grid-3@2x.jpg"
+          src="/mobile/image-grid-3.jpg"
           alt="Gallery Grid 3"
           className="mb-4 w-full h-full object-cover"
         />

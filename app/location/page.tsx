@@ -19,7 +19,7 @@ const location = () => {
         </div>
       </section>
 
-      <section className="bg-colorDark text-colorLight px-2 py-8 ls:flex m:justify-between ls:px-10 ls:py-16 l:justify-around">
+      <section className="bg-colorDark text-colorLight px-3 py-8 ls:flex m:justify-between ls:px-10 ls:py-16 l:justify-around">
         <h2 className="uppercase">
           Our <span className="ls:block">Location</span>
         </h2>
