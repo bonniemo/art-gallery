@@ -8,9 +8,9 @@ export default {
   ],
   theme: {
     screens: {
-      "larger-screens": "768",
-      tablet: { min: "768px", max: "1023px" },
-      laptop: "1024",
+      ls: "768",
+      m: { min: "768px", max: "1023px" },
+      l: "1024",
     },
     extend: {
       colors: {
@@ -23,11 +23,11 @@ export default {
         body: ["var(--font-outfit)"],
       },
       fontSize: {
-        'header-big': "var(--header-size-big)",
-        'header-medium': "var(--header-size-medium)",
-        'header-small': "var(--header-size-small)",
-        'p-big': "var(--p-size-big)",
-        'p-small': "var(--p-size-small)",
+        "header-big": "var(--header-size-big)",
+        "header-medium": "var(--header-size-medium)",
+        "header-small": "var(--header-size-small)",
+        "p-big": "var(--p-size-big)",
+        "p-small": "var(--p-size-small)",
       },
     },
   },
