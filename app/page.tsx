@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Hero from "./components/Hero";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <>
       <Hero />
       <Gallery />
+      <Footer page={ "landingPage" } />
     </>
   );
 };
