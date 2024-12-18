@@ -1,6 +1,6 @@
 const Gallery = () => {
   return (
-    <div className="p-3 ls:p-6 mt-28 ls:grid ls:grid-cols-12 ls:gap-4">
+    <div className="p-3 ls:p-6 mt-28 ls:grid ls:grid-cols-12 ls:gap-4 max-w-6xl m-auto">
       <picture className="ls:col-start-6 ls:col-end-13 ls:row-start-1 ls:row-end-2">
         <source
           srcSet="/desktop/image-grid-1.jpg"
@@ -19,7 +19,7 @@ const Gallery = () => {
         <h2 className="uppercase">
           <span className="block lsinline">Your day </span>at the gallery
         </h2>
-        <p className="l:w-72">
+        <p className="ls:max-w-xs">
           Wander through our distinct collections and find new insights about
           our artists. Dive into the details of their creative process.
         </p>
@@ -43,10 +43,7 @@ const Gallery = () => {
           srcSet="/desktop/image-grid-3.jpg"
           media="(min-width: 1000px)"
         />
-        <source
-          srcSet="/tablet/image-grid-3.jpg"
-          media="(min-width: 700px)"
-        />
+        <source srcSet="/tablet/image-grid-3.jpg" media="(min-width: 700px)" />
         <img
           src="/mobile/image-grid-3.jpg"
           alt="Gallery Grid 3"
@@ -56,7 +53,7 @@ const Gallery = () => {
 
       <section className="bg-colorDark text-colorLight px-6 py-8 mb-28 ls:col-start-8 ls:col-end-13 ls:row-start-3 ls:row-end-4 ls:h-full">
         <h2 className="uppercase">Come &amp; be inspired</h2>
-        <p>
+        <p className="max-w-xs">
           We’re excited to welcome you to our gallery and see how our
           collections influence you.
         </p>

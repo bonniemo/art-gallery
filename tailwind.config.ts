@@ -11,6 +11,7 @@ export default {
       ls: "768",
       m: { min: "768px", max: "1023px" },
       l: "1024",
+      max: "1400",
     },
     extend: {
       colors: {

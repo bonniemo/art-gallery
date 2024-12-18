@@ -23,7 +23,7 @@ const Hero = () => {
           <span className="block">Modern</span> Art Gallery
         </h1>
         <section className="l:w-2/6">
-          <p className="mb-8 text-colorDark max-w">
+          <p className="mb-8 text-colorDark ls:max-w-xs">
             The arts in the collection of the Modern Art Gallery all started
             from a spark of inspiration. Will these pieces inspire you? Visit us
             and find out.
