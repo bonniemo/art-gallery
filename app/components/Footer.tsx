@@ -12,7 +12,7 @@ const Footer = ({ page }: FooterProp) => {
       className={`px-6 py-8 ls:px-10 ls:py-14 ls:flex ls:justify-between ${
         page === "landingPage"
           ? "bg-colorDark text-colorLight"
-          : "bg-colorAccent text-colorAccent"
+          : "bg-colorAccent text-colorDark"
       }`}
     >
       <h3 className="uppercase mb-8 ls:m-0">

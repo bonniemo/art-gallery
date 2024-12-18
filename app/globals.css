@@ -44,6 +44,7 @@ h6 {
 p {
   font-family: var(--font-outfit), sans-serif;
   font-size: var(--p-size-small);
+  font-weight: 200;
 }
 
 @media screen and (min-width: 768px) {
