@@ -1,11 +1,11 @@
-import Main from "./landingPage/Main"
-import Hero from "./landingPage/Hero";
+import Gallery from "./components/Gallery";
+import Hero from "./components/Hero";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <Main />
+      <Gallery />
     </>
   );
 };
