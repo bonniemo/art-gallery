@@ -3,11 +3,10 @@
 @tailwind utilities;
 
 :root {
-
   /* COLOR */
   --color-light: #ffffff;
-  --color-dark: #151515;  
-  --color-accent: #D5966C; 
+  --color-dark: #151515;
+  --color-accent: #d5966c;
 
   /* FONTSIZE */
   /* --header-size-big: clamp(3.75rem, 2.9577rem + 3.3803vw, 6rem);
@@ -17,11 +16,11 @@
   --p-size-big: clamp(1.125rem, 1.0370rem + 0.3756vw, 1.375rem);;
   --p-size-small: clamp(1rem, 0.9560rem + 0.1878vw, 1.125rem); */
 
-  --header-size-big: 4rem;  
-  --header-size-small: 1,5rem;
+  --header-size-big: 4rem;
+  --header-size-small: 2.5rem;
 
-  --p-size-big: 1,25rem;
-  --p-size-small: 1rem;
+  --p-size-big: 1, 25rem;
+  --p-size-small: 1, 125rem;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -31,12 +30,20 @@
   }
 } */
 
-p {
-  font-size: var(--p-size-small); 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-big-shoulders), sans-serif;
+  font-size: var(--header-size-small);
+  font-weight: bold;
 }
 
-h1, h2 {
-  font-size: var(--header-size-small);
+p {
+  font-family: var(--font-outfit), sans-serif;
+  font-size: var(--p-size-small);
 }
 
 @media screen and (min-width: 768px) {
@@ -44,7 +51,8 @@ h1, h2 {
     font-size: var(--p-size-big);
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     font-size: var(--header-size-big);
   }
 }
