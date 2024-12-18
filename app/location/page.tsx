@@ -19,21 +19,25 @@ const location = () => {
         </div>
       </section>
 
-      <section className="bg-colorDark text-colorLight px-2 py-8">
-        <h2>Our Location</h2>
-        <h3 className="uppercase text-colorAccent ">99 King Street</h3>
-        <p>
-          <span className="block">Newport</span>{" "}
-          <span className="block">RI 02840</span>
-          United States of America
-        </p>
-        <p className="mt-5">
-          Our newly opened gallery is located near the Edward King House on 99
-          King Street, the Modern Art Gallery is free to all visitors and open
-          seven days a week from 8am to 9pm.
-        </p>
+      <section className="bg-colorDark text-colorLight px-2 py-8 ls:flex m:justify-between ls:px-10 ls:py-16 l:justify-around">
+        <h2 className="uppercase">
+          Our <span className="ls:block">Location</span>
+        </h2>
+        <section className="m:w-3/6 l:w-2/6 ls:flex ls:flex-col content-end">
+          <h3 className="uppercase text-colorAccent ">99 King Street</h3>
+          <p>
+            <span className="block">Newport</span>{" "}
+            <span className="block">RI 02840</span>
+            United States of America
+          </p>
+          <p className="mt-5">
+            Our newly opened gallery is located near the Edward King House on 99
+            King Street, the Modern Art Gallery is free to all visitors and open
+            seven days a week from 8am to 9pm.
+          </p>
+        </section>
       </section>
-      <Footer page={"map"}/>
+      <Footer page={"map"} />
     </article>
   );
 };
