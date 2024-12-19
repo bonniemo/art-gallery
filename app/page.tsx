@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 
 const Home = () => {
   return (
-    <>
+    <>    
       <Hero />
       <Gallery />
       <Footer page={ "landingPage" } />

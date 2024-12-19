@@ -19,7 +19,7 @@ const Hero = () => {
         </picture>
       </section>
       <section className="ls:col-start-3 ls:col-end-11 m:col-start-6 m:col-end-11 row-start-2 row-end-4 ls:flex m:flex-col l:justify-between p-3 ls:p-0">
-        <h1 className="l:text-colorLight l:mix-blend-difference mb-8 uppercase">
+        <h1 className="mt-8 ls:mt-0 l:text-colorLight l:mix-blend-difference mb-8 uppercase">
           <span className="block">Modern</span> Art Gallery
         </h1>
         <section className="l:w-2/6">
