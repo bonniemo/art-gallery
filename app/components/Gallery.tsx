@@ -14,9 +14,9 @@ const Gallery = () => {
         />
       </picture>
 
-      <section className="py-8 ls:col-start-1 ls:col-end-6 ls:row-start-1 ls:row-end-2">
+      <section className="pt-6 pb-8 ls:col-start-1 ls:col-end-6 ls:row-start-1 ls:row-end-2">
         {/* correct block for larger screens */}
-        <h2 className="uppercase">
+        <h2 className="uppercase mb-6">
           <span className="block lsinline">Your day </span>at the gallery
         </h2>
         <p className="ls:max-w-xs">
@@ -52,8 +52,8 @@ const Gallery = () => {
       </picture>
 
       <section className="bg-colorDark text-colorLight px-6 py-8 mb-28 ls:col-start-8 ls:col-end-13 ls:row-start-3 ls:row-end-4 ls:h-full">
-        <h2 className="uppercase">Come &amp; be inspired</h2>
-        <p className="max-w-xs">
+        <h2 className="uppercase mb-6">Come &amp; be inspired</h2>
+        <p className="">
           We’re excited to welcome you to our gallery and see how our
           collections influence you.
         </p>

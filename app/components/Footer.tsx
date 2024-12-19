@@ -18,7 +18,7 @@ const Footer = ({ page }: FooterProp) => {
       <h3 className="uppercase mb-8 ls:m-0">
         <span className="block">Modern</span> Art Gallery
       </h3>
-      <p className=" l:w-[26rem] m:w-[17.5rem]">
+      <p className=" l:w-1/3 m:w-2/4">
         The Modern Art Gallery is free to all visitors and open seven days a
         week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
       </p>
